@@ -1,33 +1,27 @@
+import ProfileCard from "./ProfileCard";
 import "bulma/css/bulma.css";
 
-import ProfileCard from "./ProfileCard";
-
 import AlexaImage from "./images/alexa.png";
-
 import CortanaImage from "./images/cortana.png";
-
-import SiriImage from "./images/siri.png";
+import SirImage from "./images/siri.png";
 
 const App = () => {
   return (
     <div>
-      <div>Personal Digital Assistants</div>
-
+      <h1>Personal Digital Assistants</h1>
       <div className="columns">
         <div className="column">
           <ProfileCard title="Alexa" handle="@alexa99" image={AlexaImage} />
         </div>
-
         <div className="column">
           <ProfileCard
             title="Cortana"
-            handle="@cortana02"
+            handle="@cortana32"
             image={CortanaImage}
           />
         </div>
-
         <div className="column">
-          <ProfileCard title="Siri" handle="@siri23" image={SiriImage} />
+          <ProfileCard title="Siri" handle="@siri01" image={SirImage} />
         </div>
       </div>
     </div>
