@@ -3,7 +3,7 @@ const ProfileCard = ({ title, handle, image }) => {
     <div className="card">
       <div className="card-image">
         <figure className="image is-4by3">
-        <img src={image} alt="Profile image" />
+        <img src={image} alt="something" />
         </figure>
       </div>
 
